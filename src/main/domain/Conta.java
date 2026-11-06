@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class Conta {
 
-    private String cpf;
-    private String nome;    
+    private final String cpf;
+    private final String nome;    
     private BigDecimal saldo = BigDecimal.ZERO.setScale(2);
 
     public Conta(String cpf, String nome){
@@ -25,17 +25,11 @@ public class Conta {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+
 
     
 }
