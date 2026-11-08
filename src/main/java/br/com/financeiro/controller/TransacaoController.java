@@ -1,9 +1,9 @@
-package main.java.br.com.financeiro.controller;
+package br.com.financeiro.controller;
 
-import main.java.br.com.financeiro.domain.Categoria;
-import main.java.br.com.financeiro.domain.TipoTransacao;
-import main.java.br.com.financeiro.domain.Transacao;
-import main.java.br.com.financeiro.service.TransacaoService;
+import br.com.financeiro.domain.Categoria;
+import br.com.financeiro.domain.TipoTransacao;
+import br.com.financeiro.domain.Transacao;
+import br.com.financeiro.service.TransacaoService;
 import java.math.BigDecimal;
 
 /** Recebe os pedidos do usuário (textos), converte e delega ao service. */

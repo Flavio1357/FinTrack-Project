@@ -1,10 +1,10 @@
-package main.java.br.com.financeiro.domain; 
+package br.com.financeiro.domain;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/** Composite: uma categoria contém despesas e outras categorias. */
 public class Categoria implements ItemGasto {
 
     private final String nome;

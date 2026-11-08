@@ -1,9 +1,9 @@
-package main.java.br.com.financeiro.pattern;
+package br.com.financeiro.pattern;
 
-import main.java.br.com.financeiro.domain.Despesa;
-import main.java.br.com.financeiro.domain.Receita;
-import main.java.br.com.financeiro.domain.TipoTransacao;
-import main.java.br.com.financeiro.domain.Transacao;
+import br.com.financeiro.domain.Despesa;
+import br.com.financeiro.domain.Receita;
+import br.com.financeiro.domain.TipoTransacao;
+import br.com.financeiro.domain.Transacao;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 

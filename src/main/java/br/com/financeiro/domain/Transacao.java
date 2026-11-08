@@ -1,4 +1,4 @@
-package main.java.br.com.financeiro.domain;
+package br.com.financeiro.domain;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -19,13 +19,6 @@ public abstract class Transacao {
         this.data = data;
     }
 
-    /** Cada tipo de transação sabe como afetar o saldo da conta. */
-    public abstract void aplicarEm(Conta conta);
-
-    /** Por padrão não faz nada; só as despesas entram em categorias. */
-    public void classificarEm(Categoria categoria) {
-    }
-
     public String getDescricao() {
         return descricao;
     }
@@ -36,5 +29,12 @@ public abstract class Transacao {
 
     public LocalDate getData() {
         return data;
+    }
+
+    /** Cada tipo de transação sabe como afetar o saldo da conta. */
+    public abstract void aplicarEm(Conta conta);
+
+    /** Por padrão não faz nada; só as despesas entram em categorias. */
+    public void classificarEm(Categoria categoria) {
     }
 }

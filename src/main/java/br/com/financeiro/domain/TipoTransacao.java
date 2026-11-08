@@ -1,4 +1,4 @@
-package main.java.br.com.financeiro.domain;
+package br.com.financeiro.domain;
 
 public enum TipoTransacao {
     RECEITA,

@@ -1,8 +1,8 @@
-package main.java.br.com.financeiro.pattern;
+package br.com.financeiro.pattern;
 
-import main.java.br.com.financeiro.domain.NivelAlerta;
-import main.java.br.com.financeiro.domain.Orcamento;
-import main.java.br.com.financeiro.domain.OrcamentoObserver;
+import br.com.financeiro.domain.NivelAlerta;
+import br.com.financeiro.domain.Orcamento;
+import br.com.financeiro.domain.OrcamentoObserver;
 
 /** Observador concreto: mostra o alerta no console. */
 public class AlertaConsole implements OrcamentoObserver {

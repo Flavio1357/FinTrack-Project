@@ -1,4 +1,4 @@
-package main.java.br.com.financeiro.domain;
+package br.com.financeiro.domain;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

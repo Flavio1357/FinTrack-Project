@@ -1,10 +1,10 @@
-package main.java.br.com.financeiro.domain;
+package br.com.financeiro.domain;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Objects;
 
-
+/** Folha do Composite: uma despesa é um item de gasto. */
 public class Despesa extends Transacao implements ItemGasto {
 
     public Despesa(String descricao, BigDecimal valor, LocalDate data) {
@@ -26,4 +26,4 @@ public class Despesa extends Transacao implements ItemGasto {
     public BigDecimal totalGasto() {
         return getValor();
     }
-} 
+}

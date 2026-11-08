@@ -1,7 +1,8 @@
-package main.java.br.com.financeiro.domain;
+package br.com.financeiro.domain;
 
 import java.math.BigDecimal;
 
+/** Componente do Composite: algo cujo gasto total pode ser calculado. */
 public interface ItemGasto {
-    public BigDecimal totalGasto();
+    BigDecimal totalGasto();
 }
