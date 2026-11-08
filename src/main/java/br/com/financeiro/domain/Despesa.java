@@ -26,4 +26,4 @@ public class Despesa extends Transacao implements ItemGasto {
     public BigDecimal totalGasto() {
         return getValor();
     }
-}
+} 
