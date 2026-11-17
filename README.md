@@ -24,7 +24,6 @@ java -cp out main.java.br.com.financeiro.Main
 10. **Estruturas expostas**: listas mutáveis são acessíveis globalmente.
 11. **Ausência de testes automatizados**: não há suíte de testes nesta versão.
 
-> Esta implementação é apenas para estudo. Não use como sistema financeiro real.
 
 ## Comparação
 O projeto original (`controle-financeiro-com-praticas`) contém a estrutura organizada e testes.
